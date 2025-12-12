@@ -78,7 +78,7 @@ This project is ideal for learning:
 
 ## **Tech Stack**
 
-```yml
+
 | Layer       | Technology                     |
 |:-----------:|:------------------------------:|
 | UI          | JavaFX, FXML                    |
@@ -88,7 +88,6 @@ This project is ideal for learning:
 | Packaging   | jlink + jpackage                |
 | OS Support  | macOS ARM (Apple Silicon)       |
 
-```
 
 ---
 
@@ -262,7 +261,7 @@ Open the .dmg and drag LMS.app to Applications.
 **Nityananda Krishnamoorthy**
 
 - GitHub: [https://github.com/Nityananda-Krishnamoorthy](https://github.com/Nityananda-Krishnamoorthy)
-<br>
+
 - Email: [contactmenitish06@gmail.com](mailto:contactmenitish06@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
