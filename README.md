@@ -79,14 +79,15 @@ This project is ideal for learning:
 ## **Tech Stack**
 
 ```yml
-| Layer | Technology |
-|------|------------|
-| UI | JavaFX, FXML |
-| Backend | Java 25 (Temurin) |
-| Database | MySQL + JDBC |
-| Build Tool | Maven |
-| Packaging | jlink + jpackage |
-| OS Support | macOS ARM (Apple Silicon) |
+| Layer       | Technology                     |
+|:-----------:|:------------------------------:|
+| UI          | JavaFX, FXML                    |
+| Backend     | Java 25 (Temurin)               |
+| Database    | MySQL + JDBC                    |
+| Build Tool  | Maven                           |
+| Packaging   | jlink + jpackage                |
+| OS Support  | macOS ARM (Apple Silicon)       |
+
 ```
 
 ---
@@ -236,23 +237,23 @@ Open the .dmg and drag LMS.app to Applications.
 ---
 ## **Roadmap**
 
- -[x] Core LMS features
+ - [x] Core LMS features
 
- -[x] Database integration
+ - [x] Database integration
 
- -[x] macOS installer
+ - [x] macOS installer
 
- -[ ] Windows .exe installer
+ - [ ] Windows .exe installer
 
- -[ ] Linux .deb package
+ - [ ] Linux .deb package
 
- -[ ] User login system
+ - [ ] User login system
 
- -[ ] Admin/Staff roles
+ - [ ] Admin/Staff roles
 
- -[ ] Dashboard charts
+ - [ ] Dashboard charts
 
- -[ ] Export/Import book data
+ - [ ] Export/Import book data
 
  ---
 
@@ -264,4 +265,4 @@ Open the .dmg and drag LMS.app to Applications.
 <br>
 - Email: [contactmenitish06@gmail.com](mailto:contactmenitish06@gmail.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
