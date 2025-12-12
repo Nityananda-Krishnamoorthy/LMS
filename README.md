@@ -1,228 +1,267 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-<h1 align="center">
-
-[contributors-shield]: https://img.shields.io/github/contributors/YOUR_USERNAME/YOUR_REPO_NAME.svg?style=for-the-badge
-[contributors-url]: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO_NAME.svg?style=for-the-badge&logo=github
-[forks-url]: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME.svg?style=for-the-badge&logo=github
-[stars-url]: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO_NAME.svg?style=for-the-badge
-[issues-url]: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues
-
-[license-shield]: https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO_NAME.svg?style=for-the-badge
-[license-url]: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/master/LICENSE.txt
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/YOUR_LINKEDIN_PROFILE
-
-</h1 >
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/Nityananda-Krishnamoorthy/javafx-quickstart-macos-arm">
-    <img src="images/logo.png" alt="Logo" width="400" height="400" style="border-radius: 20px;">
-  </a>
 
-<h3 align="center">JavaFX Quickstart — macOS ARM (Java 21)</h3>
+# **Library Management System (JavaFX • MySQL • macOS Installer)**
 
-  <p align="center">
-    A fully configured JavaFX 21 + Maven starter template optimized for macOS ARM (M1/M2/M3/M4).
-    <br />
-    <a href="https://github.com/Nityananda-Krishnamoorthy/javafx-quickstart-macos-arm"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Nityananda-Krishnamoorthy/javafx-quickstart-macos-arm">View Demo</a>
-    ·
-    <a href="https://github.com/Nityananda-Krishnamoorthy/javafx-quickstart-macos-arm/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Nityananda-Krishnamoorthy/javafx-quickstart-macos-arm/issues">Request Feature</a>
-  </p>
+![contributors](https://img.shields.io/github/contributors/Nityananda-Krishnamoorthy/LMS.svg?style=for-the-badge)
+![forks](https://img.shields.io/github/forks/Nityananda-Krishnamoorthy/LMS.svg?style=for-the-badge&logo=github)
+![stars](https://img.shields.io/github/stars/Nityananda-Krishnamoorthy/LMS.svg?style=for-the-badge&logo=github)
+![issues](https://img.shields.io/github/issues/Nityananda-Krishnamoorthy/LMS.svg?style=for-the-badge)
+![license](https://img.shields.io/github/license/Nityananda-Krishnamoorthy/LMS.svg?style=for-the-badge)
+
+<img src="images/app_icon.icns" width="200">
+
+### **A complete desktop-based Library Management System built using JavaFX, MySQL, and Maven.**
+Includes a **macOS (.dmg) installer** built with jpackage for Apple Silicon (M1–M4).
+
+[View Repository](https://github.com/Nityananda-Krishnamoorthy/LMS)
+·  
+[Report Bug](https://github.com/Nityananda-Krishnamoorthy/LMS/issues)
+·  
+[Request Feature](https://github.com/Nityananda-Krishnamoorthy/LMS/issues)
+
 </div>
 
 ---
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#project-structure">Project Structure</a></li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#Create Your Own Project (Detach From Template)">Create Your Own Project (Detach From Template)</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#Owner Information">License</a></li>
-  </ol>
-</details>
+## **Table of Contents**
+
+1. [About the Project](#about-the-project)  
+2. [Features](#features)  
+3. [Tech Stack](#tech-stack)  
+4. [Project Structure](#project-structure)  
+5. [Installation & Setup](#installation--setup)  
+6. [Database Setup](#database-setup)  
+7. [Build macOS Installer](#build-macos-installer)  
+8. [Run the Application](#run-the-application)  
+9. [Roadmap](#roadmap)  
+10. [Author](#author)
 
 ---
 
-## About The Project
+## **About the Project**
 
-<!-- [![Product Screenshot][product-screenshot]](https://example.com) -->
+This Library Management System is a full desktop application built with **JavaFX** and designed for managing books, users, and inventory in a library environment.
 
-This repository provides a clean, ready-to-run template for building **JavaFX 21 applications** using **Maven** on **macOS ARM** processors (Apple Silicon). It eliminates all environment problems such as:
+The project includes:
 
-- Incorrect JavaFX classifiers  
-- Missing modules  
-- Wrong Java version  
-- IDE misconfiguration  
+- Complete CRUD operations  
+- MySQL-based persistent storage  
+- A clean UI created using JavaFX FXML  
+- Proper modular Java configuration  
+- A custom **macOS .dmg installer generated using jpackage**  
+- Custom application icon  
 
-This project is ideal for:
+This project is ideal for learning:
 
-- Students learning JavaFX  
-- New developers building desktop GUI apps  
-- Anyone who wants a perfect zero-setup JavaFX starter template  
+- JavaFX development  
+- Modular Java (Java 25 modular runtime)  
+- Database connectivity using JDBC  
+- Packaging standalone desktop applications  
 
 ---
 
-## Project Structure
+## **Features**
+
+- Add, update, delete books  
+- Search & filter functionality  
+- Book availability tracking  
+- Book price & condition tracking  
+- Gender tagging for authors  
+- JavaFX UI with FXML  
+- macOS installer (`.dmg`)  
+- Custom icons and runtime image  
+- Clean modular Maven architecture  
+
+---
+
+## **Tech Stack**
+
+```yml
+| Layer | Technology |
+|------|------------|
+| UI | JavaFX, FXML |
+| Backend | Java 25 (Temurin) |
+| Database | MySQL + JDBC |
+| Build Tool | Maven |
+| Packaging | jlink + jpackage |
+| OS Support | macOS ARM (Apple Silicon) |
+```
+
+---
+
+## **Project Structure**
 
 ```swift
-javafx-quickstart-macos-arm/
+LMS/
 │── pom.xml
+│── build-runtime/ # jlink runtime image
+│── out/ # macOS .dmg output
 │── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/example/app/
-│       │       ├── App.java
-│       │       └── Controller.java
-│       └── resources/
-│           └── com/example/app/
-│               └── view.fxml
+│ └── main/
+│ ├── java/
+│ │ └── com/librarymanagementsystem/
+│ │ ├── App.java
+│ │ ├── Books.java
+│ │ └── Controllers...
+│ └── resources/
+│ └── com/librarymanagementsystem/
+│ ├── main_screen.fxml
+│ └── images/
+│ └── app_icon.icns
 ```
+
 ---
 
-## Getting Started
+## **Installation & Setup**
 
-### Prerequisites
-
-Install Java 21 (Homebrew):
+### 1. Clone the repository
 
 ```sh
-brew install openjdk@21
+git clone https://github.com/Nityananda-Krishnamoorthy/LMS.git
+cd LMS
 ```
 
-Set PATH:
+### 2. Install Java 25 (Temurin)
 
 ```sh
-echo 'export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
+brew install --cask temurin
 ```
 
-Install Maven:
+### 3. Install Maven
 
 ```sh
 brew install maven
 ```
 
-Verify:
+### 4. Verify installation
 
 ```sh
 java -version
 mvn -v
 ```
+---
 
-### Installation
+## **Database Setup**
 
-Clone the repository:
+### 1. Create MySQL database
 
-```sh
-git clone https://github.com/Nityananda-Krishnamoorthy/javafx-quickstart-macos-arm.git
-cd javafx-quickstart-macos-arm
+```sql
+CREATE DATABASE lms;
+USE lms;
 ```
 
-Build:
+### 2. Create the table
+
+```sql
+CREATE TABLE books (
+    sno INT PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    authorGender VARCHAR(20),
+    publicationYear INT,
+    genre VARCHAR(100),
+    bookPrice DOUBLE,
+    bookAvailability BOOLEAN,
+    bookCover VARCHAR(255),
+    `condition` VARCHAR(100)
+);
+```
+
+### 3. Configure connection in your Java code
+
+Your JDBC connection should look like:
+
+```java
+String url = "jdbc:mysql://localhost:3306/lms";
+String user = "root";
+String password = "your-password";
+```
+---
+
+## **Build macOS Installer**
+
+### 1. Create runtime image (jlink)
 
 ```sh
-mvn clean install
+jlink \
+  --module-path "$JAVA_HOME/jmods:/Users/yourpath/javafx-jmods-25.0.1" \
+  --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.sql \
+  --output build-runtime \
+  --strip-debug --compress=2 --no-header-files --no-man-pages
+  ```
+
+### 2. Create .dmg installer (jpackage)
+
+```sh
+jpackage \
+  --type dmg \
+  --name "LMS" \
+  --app-version 1.0 \
+  --input target \
+  --main-jar libraryapp-1.0.0-jar-with-dependencies.jar \
+  --main-class com.librarymanagementsystem.App \
+  --icon images/app_icon.icns \
+  --runtime-image build-runtime \
+  --dest out
+  ```
+
+Installer appears in:
+
+```bash
+/LMS/out/LMS-1.0.dmg
 ```
-Run the JavaFX application:
+---
+
+## **Run the Application**
+
+Using Maven (development mode):
 
 ```sh
 mvn clean javafx:run
 ```
 
-## Create Your Own Project (Detach From Template)
-
-### If you want to use this starter to create your own project, follow these steps:
-
-Step A — Remove the link to the original repository
+Using packaged JAR:
 
 ```sh
-git remote remove origin
+java -jar target/libraryapp-1.0.0-jar-with-dependencies.jar
 ```
 
-Step B — Create a new empty GitHub repository
+Using macOS app:
 
-```swift
-(Do not add README, .gitignore, or license on GitHub.)
+```yml
+Open the .dmg and drag LMS.app to Applications.
 ```
+---
+## **Roadmap**
 
-Step C — Connect your local folder to your new repository
+ -[x] Core LMS features
 
-```sh
-git remote add origin https://github.com/<your-username>/<your-new-repo>.git
-git branch -M main
-git push -u origin main
-```
-Now the quick-starter is fully yours.
+ -[x] Database integration
 
-## Usage
+ -[x] macOS installer
 
-This starter project includes:
+ -[ ] Windows .exe installer
 
-- A JavaFX Application class (App.java)
-- An FXML UI (view.fxml)
-- A controller (Controller.java)
-- Maven configured with correct JavaFX dependencies
-- Java 21 and macOS ARM support via classifiers
+ -[ ] Linux .deb package
 
-Modify UI:
+ -[ ] User login system
 
-```swift
-src/main/resources/com/example/app/view.fxml
-```
-Modify logic:
+ -[ ] Admin/Staff roles
 
-```swift
-src/main/java/com/example/app/Controller.java
-```
-Add more JavaFX modules in pom.xml if needed:
+ -[ ] Dashboard charts
 
-```xml
-<dependency>
-    <groupId>org.openjfx</groupId>
-    <artifactId>javafx-graphics</artifactId>
-    <version>${javafx.version}</version>
-    <classifier>mac-aarch64</classifier>
-</dependency>
-```
-## Roadmap
+ -[ ] Export/Import book data
 
- - [x] Fully working JavaFX 21 starter
- - [x] macOS ARM auto-configuration
- - [x] Maven JavaFX plugin setup
- - [ ] Include advanced JavaFX components (TableView, Charts, etc.)
- - [ ] Add dark/light theme
- - [ ] Add sample multi-page navigation
- - [ ] Add unit tests (JUnit 5)
+ ---
 
-## Owner Information
+ ## **Author**
 
-Author: Nityananda Krishnamoorthy
-GitHub: github.com/Nityananda-Krishnamoorthy
-Contact: contactmenitish06@gmail.com
-# LMS
+**Nityananda Krishnamoorthy**
+
+- GitHub: [https://github.com/Nityananda-Krishnamoorthy](https://github.com/Nityananda-Krishnamoorthy)
+<br>
+- Email: [contactmenitish06@gmail.com](mailto:contactmenitish06@gmail.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> ```
