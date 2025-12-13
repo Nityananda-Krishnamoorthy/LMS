@@ -82,6 +82,17 @@ This project is ideal for learning:
 
 ---
 
+## **Screenshots**
+
+<p align="center">
+  <img src="images/installer.png" width="45%" style="border-radius:12px; margin-right:10px;">
+  <img src="images/result.png" width="45%" style="border-radius:12px;">
+</p>
+
+
+---
+
+
 ## **Tech Stack**
 
 
