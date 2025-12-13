@@ -11,7 +11,7 @@
 ![license](https://img.shields.io/github/license/Nityananda-Krishnamoorthy/LMS.svg?style=for-the-badge)
 
 <p align="center">
-  <img src="images/Library.jpg"
+  <img src="images/Icon.png"
        alt="Project Logo"
        width="300"
        style="border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
